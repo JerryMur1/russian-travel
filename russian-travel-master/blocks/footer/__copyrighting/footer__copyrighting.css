@@ -1,0 +1,22 @@
+.footer__copyrighting {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+text-align: right;
+display: flex;
+
+color: #FFFFFF;
+margin: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+    .footer__copyrighting {
+        padding-left: 16px;
+        padding-top: 32px;
+        padding-bottom: 24px;
+    }
+    }
