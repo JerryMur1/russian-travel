@@ -3,13 +3,13 @@
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 18px;
-/* identical to box height, or 112% */
-
 
 color: #FFFFFF;
 text-decoration: none;
 padding-left: 18px;
+display: flex;
+
+
 }
 .footer__link:nth-child(1){
     padding-left: 0;
@@ -19,19 +19,27 @@ padding-left: 18px;
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) {
     .footer__link {
-        padding-top: 32px;
+        
+        padding-left: 0px;
+        padding-top:32px ;
+        
+        
+    }
+}
+    /* .footer__link:nth-child(1) {
+        padding-top: 0px;
         padding-left: 16px;
         
         
     }
-    }
-    @media screen and (max-width: 700px) {
+    } */
+    /* @media screen and (max-width: 768px) {
         .footer__link:nth-child(1) {
             padding-top: 0px;
             padding-left: 16px;
             
             
         }
-        }
+        } */

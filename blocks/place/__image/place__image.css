@@ -1,6 +1,6 @@
 .place__image {
     grid-area: image;
-    max-width: 100%;
+    width: 100%;
     
     
     display: block;
