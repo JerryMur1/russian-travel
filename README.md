@@ -5,3 +5,6 @@
 
 # Инструкция по использованию
 1.Работает во всех браузерах.
+
+# Ссылка на сайт 
+1.https://jerrymur1.github.io/russian-travel/index.html
