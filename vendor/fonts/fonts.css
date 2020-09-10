@@ -16,3 +16,11 @@
 }
 
 
+@font-face {
+  font-family: 'Inter';
+  font-style:  bold;
+  font-weight: bold;
+  font-display: swap;
+  src: url(InterWeb/Inter-Black.woff2) format("woff2"),
+       url(InterWeb/Inter-Black.woff) format("woff");
+}
