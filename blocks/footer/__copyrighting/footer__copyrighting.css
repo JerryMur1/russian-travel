@@ -7,16 +7,17 @@ line-height: 16px;
 /* identical to box height, or 114% */
 text-align: right;
 display: flex;
-padding-top: 18px;
+
 color: #FFFFFF;
 margin: 0;
+padding-top: 92px;
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
     .footer__copyrighting {
         
-        padding-top: 32px;
+        padding-top: 48px;
         padding-bottom: 24px;
     }
     }

@@ -2,7 +2,7 @@
     display: flex;
     max-width: 1184px;
     
-    padding-top: 92px;
+    
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -21,8 +21,5 @@
         .footer {
             flex-direction: column;
             padding-left: 16px;
-            
-            
-            
         }
         }
