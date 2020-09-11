@@ -11,8 +11,8 @@
   font-style:  bold;
   font-weight: bold;
   font-display: swap;
-  src: url(InterVariable/Inter.ttf) format("woff2"),
-       url(InterVariable/Inter.ttf) format("woff");
+  src: url(Inter.ttf) format("woff2"),
+       url(Inter.ttf) format("woff");
 }
 
 
