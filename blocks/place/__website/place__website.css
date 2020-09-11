@@ -15,6 +15,3 @@ grid-area: website;
         display: none;
     }
 }
-.place__website:hover {
-    opacity: 0.8;
-}

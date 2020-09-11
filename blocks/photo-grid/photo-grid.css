@@ -26,14 +26,12 @@
                 padding-left: 16px;
                 padding-right: 16px;
                 padding-top: 88px;
-                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                
             }
             }
             @media screen and (max-width:400px){
                 .photo-grid {
                     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-                    padding-left: 16px;
-                    padding-right: 16px;
                     padding-top: 64px;
                 }
                 }

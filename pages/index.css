@@ -34,7 +34,7 @@
 
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/intro/__list/_normal/intro__list_normal.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyrighting/footer__copyrighting.css);
