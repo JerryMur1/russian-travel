@@ -10,7 +10,7 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/lead.css);
-
+@import url(../blocks/header/__lang-link/_underline/header__lang-link_underline.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__text/intro__text.css);
@@ -32,9 +32,9 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
-
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__content/cover__content.css);
+@import url(../blocks/intro/__list/_normal/intro__list_normal.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyrighting/footer__copyrighting.css);

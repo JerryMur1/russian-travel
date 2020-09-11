@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset='utf-8'>
     
@@ -10,15 +10,16 @@
 <body>
     <div class="page">
         <header class="header">
-            <img class="header__logo" src="images/__logo.png" alt="Лого"/>
+            <img class="header__logo" src="images/__logo.svg" alt="Лого"/>
             <div class="header__links">
-            <a href="#" class="header__lang-link">Ru</a>
+            <a href="#" class="header__lang-link header__lang-link_underline">Ru</a>
             <a href="#" class="header__lang-link">En</a>
             </div>
         </header>
+<section class="main">
     <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
-        <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+        <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <img alt="Карта" src="images/__image-2.png" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p>
     </section>
@@ -33,30 +34,30 @@
             которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. 
             Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
         <ul class="intro__list">
-            <li class="intro__list">Часовых поясов 11</li>
-            <li class="intro__list">Объектов природного наследия ЮНЕСКО 12</li>
-            <li class="intro__list">Объектов культурного наследия ЮНЕСКО 16</li>
-            <li class="intro__list">Природных заповедников 105</li>
-            <li class="intro__list">Аэропортов 241</li> 
+            <li class="intro__list">Часовых поясов <span class="intro__list_normal">11</span></li>
+            <li class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__list_normal">12</span></li>
+            <li class="intro__list">Объектов культурного наследия ЮНЕСКО <span class="intro__list_normal">16</span></li>
+            <li class="intro__list">Природных заповедников <span class="intro__list_normal">105</span></li>
+            <li class="intro__list">Аэропортов <span class="intro__list_normal">241</span></li> 
         </ul>
     </section>
     
 <section class="photo-grid">
     <img class="photo-grid__item" alt="Поезд" src="images/__item.png">
-    <img class="photo-grid__item" alt="Атрава" src="images/__item (1).png">
-    <img class="photo-grid__item" alt="Туман" src="images/__item (2).png">
-    <img class="photo-grid__item" alt="Сочи" src="images/__item (3).png">
-    <img class="photo-grid__item" alt="Ариса" src="images/__item (4).png">
-    <img class="photo-grid__item" alt="Байкал" src="images/__item (5).png">
-    <img class="photo-grid__item" alt="Эльбрус" src="images/__item (6).png">
-    <img class="photo-grid__item" alt="Знак" src="images/__item (7).png">
-    <img class="photo-grid__item" alt="Камчатка" src="images/__item (8).png">
-    <img class="photo-grid__item" alt="Камчатка2" src="images/__item (9).png">
-    <img class="photo-grid__item" alt="Байкал2" src="images/__item (10).png">
-    <img class="photo-grid__item" alt="Эргаки" src="images/__item (11).png">
+    <img class="photo-grid__item" alt="Атрава" src="images/__item(1).png">
+    <img class="photo-grid__item" alt="Туман" src="images/__item(2).png">
+    <img class="photo-grid__item" alt="Сочи" src="images/__item(3).png">
+    <img class="photo-grid__item" alt="Ариса" src="images/__item(4).png">
+    <img class="photo-grid__item" alt="Байкал" src="images/__item(5).png">
+    <img class="photo-grid__item" alt="Эльбрус" src="images/__item(6).png">
+    <img class="photo-grid__item" alt="Знак" src="images/__item(7).png">
+    <img class="photo-grid__item" alt="Камчатка" src="images/__item(8).png">
+    <img class="photo-grid__item" alt="Камчатка2" src="images/__item(9).png">
+    <img class="photo-grid__item" alt="Байкал2" src="images/__item(10).png">
+    <img class="photo-grid__item" alt="Эргаки" src="images/__item(11).png">
     </section>
     <section class="places">
-        <div class="place">
+        <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img class="place__image" alt="Коса" src="images/kosa.png">
         <div class="place__website">
@@ -73,8 +74,8 @@
                 и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы 
                 и запах стального, прохладного моря.</p>
                 </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
             <h2 class="place__title">Кольский</h2>
             <img class="place__image" alt="Кольский" src="images/kolski.png">
             <div class="place__website">
@@ -89,8 +90,8 @@
                     Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, 
                     а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
             </div>
-    </div>
-    <div class="place">
+        </article>
+        <article class="place">
         <h2 class="place__title">Алтай</h2>
         <img class="place__image" alt="Алтай" src="images/altai.png">
         <div class="place__website">
@@ -105,8 +106,8 @@
                 к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. 
                 В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
-</div>
-<div class="place">
+        </article>
+    <article class="place">
     <h2 class="place__title">Зимний Байкал</h2>
     <img class="place__image" alt="Байкал" src="images/baikal.png">
     <div class="place__website">
@@ -121,8 +122,8 @@
             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. 
             В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
     </div>
-</div>
-<div class="place">
+    </article>
+    <article class="place">
     <h2 class="place__title">Карелия</h2>
     <img class="place__image" alt="Карелия" src="images/karelia.png">
     <div class="place__website">
@@ -136,24 +137,24 @@
             в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         
     </div>
-</div>
+    </article>
     </section> 
 <section class="cover">
-        <div class=cover__content>
-        <h2 class="cover__title">До Байкала &nbsp; «на собаках»</h2>
+    <a class="cover cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе и 
             iframes — путешествие от столицы до Байкала на электричках.</p>
-        </div>
-    
+    </a>
+</section>
 </section>
 <footer class="footer">
-    <nav class="footer__links">
-    <a href="https://yandex.ru/maps" class="footer__link">Карты</a>
-    <a href="https://yandex.ru/pogoda" class="footer__link">Погода</a>
-    <a href="https://rasp.yandex.ru" class="footer__link">Расписание</a>
-    <a href="https://calendar.yandex.ru" class="footer__link">Календарь</a>
-    <a href="https://travel.yandex.ru" class="footer__link">Путешествия</a>
-    </nav>
+    <ul class="footer__links">
+    <li class="footer__link"><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
+    <li class="footer__link"><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
+    <li class="footer__link"><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
+    <li class="footer__link"><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
+    <li class="footer__link"><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+    </ul>
     <p class="footer__copyrighting">© 2020. Бурштейн Дмитрий</p>
     
 </footer>
