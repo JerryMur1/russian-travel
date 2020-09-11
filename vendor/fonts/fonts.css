@@ -3,8 +3,8 @@
   font-style:  normal;
   font-weight: normal;
   font-display: swap;
-  src: url(InterVariable/Inter.ttf) format("woff2"),
-       url(InterVariable/Inter.ttf) format("woff");
+  src: url(Inter.ttf) format("woff2"),
+       url(Inter.ttf) format("woff");
 }
 @font-face {
   font-family: 'Inter';
@@ -21,6 +21,6 @@
   font-style:  bold;
   font-weight: bold;
   font-display: swap;
-  src: url(InterVariable/Inter-Black.woff2) format("woff2"),
-       url(InterVariable/Inter-Black.woff) format("woff");
+  src: url(Inter-Black.woff2) format("woff2"),
+       url(Inter-Black.woff) format("woff");
 }
