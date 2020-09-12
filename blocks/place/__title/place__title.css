@@ -1,16 +1,14 @@
 
 .place__title {
-font-size: 72px;
-line-height: 76px;
-/* or 106% */
-color: #FFFFFF;
-grid-area: title;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-margin: 0;
-object-fit: contain;
-
+    font-size: 72px;
+    line-height: 76px;
+    color: #FFFFFF;
+    grid-area: title;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    object-fit: contain;
 }
 
 
@@ -18,16 +16,13 @@ object-fit: contain;
     .place__title {
         font-size: 42px;
         line-height: 46px;
-        
     }
 }
 @media screen and (max-width: 600px) {
     .place__title {
-        font-size: 35px;
-        line-height: 32px;
+        font-size: 32px;
+        line-height: 35px;
         padding-left: 16px;
         padding-top: 24px;
-        
     }
 }
-

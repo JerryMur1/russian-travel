@@ -1,5 +1,4 @@
 .place {
-    
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
     grid-template-rows: repeat(2, auto-fit);
@@ -11,7 +10,6 @@
     padding-left:148px;
     padding-right: 148px;
     margin-bottom: 80px;
-    
 }
 .place:nth-child(5) {
     margin-bottom: 92px;
@@ -43,7 +41,5 @@
         grid-template-areas:"title"
                             "image"
                             "paragraphs";
-    
     }
-
 }

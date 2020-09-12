@@ -13,18 +13,17 @@
         padding-right: 48px;
     }
     }
-    @media screen and (max-width: 768px) {
-        .footer {
-            
-            padding-left: 24px;
-            padding-right: 24px;
-                }
-        }
+@media screen and (max-width: 768px) {
+    .footer {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
 
-        @media screen and (max-width: 725px) {
-            .footer {
-                flex-direction: column;
-                padding-left: 16px;
-                padding-right: 16px;
-                    }
-            }
+@media screen and (max-width: 725px) {
+    .footer {
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}

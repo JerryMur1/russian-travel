@@ -1,13 +1,12 @@
 .intro__text {
-max-width: 690px;
-margin: 0;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 163%;
-/* or 26px */
-display: flex;
-margin-bottom: 32px;
-margin-top: 40px;
-color: #FFFFFF;
+    max-width: 690px;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    display: flex;
+    margin-bottom: 32px;
+    margin-top: 40px;
+    color: #FFFFFF;
 }

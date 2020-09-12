@@ -8,7 +8,6 @@ color: #FFFFFF;
 max-width: 560px;
 z-index: 1;
 margin-bottom: 0;
-
 }
 @media screen and (max-width: 550px) {
     .cover__title {

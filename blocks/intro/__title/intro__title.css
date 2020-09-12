@@ -1,16 +1,14 @@
 .intro__title {
-margin: 0;
-font-size: 54px;
-line-height: 58px;
-/* identical to box height, or 107% */
-margin-top:92px;
-max-width: 690px;
-color: #FFFFFF;
+    margin: 0;
+    font-size: 54px;
+    line-height: 58px;
+    margin-top:92px;
+    max-width: 690px;
+    color: #FFFFFF;
 }
-@media screen and (max-width:768px) {
-.intro__title {
-font-size: 54px;
-line-height: 58px;
+@media screen and (max-width:320px) {
+    .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    }
 }
-}
-

@@ -1,7 +1,6 @@
 .place__paragraphs {
     grid-area: paragraphs;
     object-fit: cover;
-    
 }
 
 @media screen and (max-width:600px){

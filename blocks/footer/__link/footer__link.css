@@ -1,10 +1,10 @@
 .footer__link {
-font-size: 16px;
-color: #FFFFFF;
-text-decoration: none;
-padding-left: 18px;
-display: flex;
-list-style-type: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 18px;
+    display: flex;
+    list-style-type: none;
 }
 .footer__link:nth-child(1){
     padding-left: 0;
@@ -13,7 +13,6 @@ list-style-type: none;
 .footer__link:hover{
     opacity: 0.8;
 }
-
 
 @media screen and (max-width: 725px) {
     .footer__link {

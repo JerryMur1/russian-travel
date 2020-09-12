@@ -3,16 +3,16 @@
   font-style:  normal;
   font-weight: normal;
   font-display: swap;
-  src: url(Inter.ttf) format("woff2"),
-       url(Inter.ttf) format("woff");
+  src: url(Inter-Regular.woff2) format("woff2"),
+       url(Inter-Regular.woff) format("woff");
 }
 @font-face {
   font-family: 'Inter';
   font-style:  bold;
   font-weight: bold;
   font-display: swap;
-  src: url(Inter.ttf) format("woff2"),
-       url(Inter.ttf) format("woff");
+  src: url(Inter-Bold.woff2) format("woff2"),
+       url(Inter-Bold.woff) format("woff");
 }
 
 

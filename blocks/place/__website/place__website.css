@@ -1,13 +1,11 @@
 .place__website {
-
-font-size: 12px;
-line-height: 12px;
-/* identical to box height, or 100% */
-color: #AAAAAA;
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-grid-area: website;
+    font-size: 12px;
+    line-height: 12px;
+    color: #AAAAAA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-area: website;
 }
 
 @media screen and (max-width:600px) {
